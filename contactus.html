@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="aboutus.css">
+</head>
+<body>
+<style>
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  outline: none;
+  color: #cb99c9;
+}
+
+section{
+  position: absolute;
+  height: 100%;
+  width: 100%
+   
+  background-size cover;
+  background-position: center;
+  filter: blur(2px) brightness(30%);
+}
+
+
+body{
+  background-image: url("../Activityimage/wp2737387.jpg"); 
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center; 
+}
+html body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.logo1{
+  opacity: none;
+}
+
+.logotext{
+  float: left;
+  font-family: Edo sZ;
+  color: #cb99c9;
+  font-size: 20px;
+  position: relative;
+  left: 200px;
+}
+
+header{
+position: absolute;
+top: -10px;
+left: -10px;
+width: 100.5%;
+height: 80px;
+
+margin-top: -5px;
+}
+
+ul li{
+  margin-right: 20px;
+  color: black;
+  float: right;
+  margin-top: 0px;
+
+}
+
+ul li a{
+  text-decoration: none;
+  padding: 6px 20px;
+  border-radius: 25px;
+  opacity: 1;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #E8292C ;
+    color: black;
+}
+
+
+.container{
+  width: 360px;
+  background: black;
+  box-shadow: 0 0 8px rgba(250,250,250,0.6);
+  opacity: 0.6;
+  position: relative;
+  left: 650px;
+}
+
+.container form{
+  width: 100%;
+  text-align: center;
+  padding: 25px 20px;
+}
+
+form h1{
+  padding: 10px 0;
+}
+
+form .id{
+  position: relative;
+}
+
+.is i{
+  position: absolute;
+  font-size: 20px;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+form input{
+  width: 100%;
+  height: 50px;
+  margin: 4px;
+  border: 1px solid grey;
+  border-radius: 3px;
+  background: black;
+  padding: 0 15px;
+}
+
+form textarea{
+  padding: 5px 15px;
+  border: 1px solid grey;
+  border-radius: 3px;
+  background: black;
+  font-size: 20px;
+  width: 100%;
+  margin:4px 0;
+}
+
+form button{
+  margin-top: 5px;
+  border:none;
+  background: red;
+  color:black;
+  padding:10px 0;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 800;
+  cursor:pointer;
+  border-radius: 3px;
+}
+
+form input:focus,
+form textarea:focus{
+  border: 1px solid red;
+  color: red;
+  transition: all 0.3 ease;
+}
+footer{
+  color:white;
+  background:black;
+  height:auto;
+  display:flex;
+  flex-direction:row-reverse;
+  align-items:flex-end;
+  border: 1px solid #af0404;
+  position:absolute;
+  top:726px;
+  width:100%;
+}
+header .logo a {
+background-image: url("logo.Psy");
+background-size: 40px;;
+display:inline-block;
+align-items:center;
+background-repeat: no-repeat;
+text-indent:-9999999px;
+height:30px;
+border-bottom:1px solid #af0404 ;
+width:18px;
+margin-right:819px;
+}
+
+.left{
+  position: relative;
+  left:-500px ;
+  top: -50px;
+}
+
+.left h3, h1{
+  line-height: 40px;
+}
+
+.left img{
+   padding: 4px;
+   height: 40px;
+}
+
+.left .mail{
+  position: relative;
+  top: 15px;
+}
+
+.left .cont{
+  position: relative;
+  top: 15px;
+}
+
+.left .loc{
+  position: relative;
+  top: 15px;
+  right: 0px;
+}
+
+
+</style>
+  <header>
+    <ul>
+      <div class="logo1">
+      <div class="logo"><a href="home.html"><img src="../Activityimage/pikachu.gif" style="height: 57px; float: left; margin-top: 20px; position: relative; left: 120px;"></a></div>
+      <div class="logotext">Best Game ever!</div>
+          </div>
+      <li><a href="contactus.html">Contact</a></li>
+      <li><a href="aboutus.html">Aboutus</a></li>
+      <li><a href="Gallery.html">Gallery</a></li>
+      <li><a href="home.html">Home</a></li>
+    </ul>
+  </header>
+  <section></section>
+  <div class="container">
+    <form>
+      <h1>Contact Us</h1>
+      <div class="id">
+        <input type="text" placeholder="Full Name">
+        <i class="far fa-user"></i>
+      </div>
+      <div class="id">
+        <input type="email" placeholder="Email address">
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+      </div>
+      <textarea cols="15" rows="5" placeholder="Enter your opinions here..."></textarea>  
+      <button onclick="myFunction()">Send</button>
+      <script>
+      function myFunction() {
+      alert("Thank You For Submiting Your Feedback");
+      }
+      </script>
+    </form>
+  </div>
+<figure class="left">
+  <h3 style="color: crimson">We'd love to hear from you again</h3>
+  <h1 style=" border-bottom: 5px solid red; width: 190px;">Contact Us</h1>
+  <br>
+  <p>Whether you have a comment or suggestion to share,<br> we look forward to hearing from you.<br>If you would rather call us or send us email,<br> you can reach our email and contact addresses bellow,<br> Purok 157, Tagaytay-Calamba Road, San Jose, Tagaytay Philippines.</p>
+  <p><img src="../Activityimage/email.webp" class="mail">janrei.malgapo@email.lcup.edu.ph</p>
+  <p><img src="../Activityimage/contact.png" class="cont">+9215277337</p>
+  <p><img src="../Activityimage/location.png" class="loc">Purok 157, Tagaytay-Calamba Road, San Jose, Tagaytay Philippines.</p>
+</figure>
+
+  <footer>
+  <div class="foot">Expansionist Company XYZ<div>
+  </footer>
+</body>
+</html> 

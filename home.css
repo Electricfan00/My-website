@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(Activityimage/wp2737387.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+html body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.firstbox {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 32px;
+}
+.firstline{
+    border-top: 5px solid white;
+    padding: 0px;
+    width: 500px;
+    position: absolute;
+    right: 515px;
+}
+header {
+    background-image: url(Activityimage/controller.jpg);
+    background-position: center;
+    height: 150px;
+    padding: 32px;
+
+}
+ul li a{
+    text-decoration: none;
+    padding: 6px 20px;
+    border-radius: 25px;
+    opacity: 1;
+    transition: 0.6s ease;
+  }
+  
+  
+header  img{
+    position: absolute;
+    right:600px;
+    top: 50px;
+    height: 55px;
+}
+.pikachu img{
+    position: absolute;
+    left: 600px;
+    top: 50px;
+    height: 55px;
+}
+
+header h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+}
+header h2{
+    font-variant: small-caps;
+    text-align: center;
+    color: #fff;
+}
+nav ul{
+    padding: 5px 0 5px 0;
+    text-align: center;
+    line-height: 35px;
+}
+ul{
+    margin-top: 15px;   
+}
+li {
+    display: inline;
+    padding: 0 10px 0 10px;
+    font-size: 16px;
+}
+ a {
+    text-decoration: none;
+    color:#fff;
+    padding: 8px;
+    text-transform: small-caps;
+}
+ul li a:hover{
+    background-color: #E8292C ;
+    color: black;
+}
+section{
+    width: 900px;
+    float: left;
+    height: 550px;
+    margin:0px 5px 5px 5px;
+}
+.main img{
+    height: 450px;
+    position: relative;
+    top: 70px;
+    border-radius: 10px;
+    border:white solid ;   
+}
+aside{
+    width: 500px;
+    float: left;
+    height:480px;
+    border: beige solid 10px;
+    margin: 50px 5px 5px -150px;
+    border-radius: 500px;
+}
+.mright h1,p{
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#cb99c9;
+}
+.mright h1:first-child{
+    padding:100px 0px 0px 0px;
+    color: #ff6961;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.left{
+    float: left;
+    position: relative;
+    top: 55px;
+    left: 200px;
+  }
+  
+  .center{
+    position: relative;
+    top: 50px;
+    left:-30px;
+  }
+  
+  .right{
+     float: right;
+       position: relative;
+       right: 100px;
+       bottom: 120px;
+       top: -130px;
+  }
+  
+  .right img{
+      height: 30px;
+      width: auto;
+  }
+  
+footer{
+    background:black;
+    color: gray;
+    padding: 20px  20px ;
+    position: absolute;
+    bottom:-250px ;
+    left: 0;
+    width: 98%;
+}
+footer p{
+    font-size: 15px;
+}
+footer .left p a{
+  text-decoration: none;
+  color: gray; 
+}
+footer .left p a:hover{
+    text-decoration: underline;
+}

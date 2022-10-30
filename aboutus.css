@@ -1,0 +1,147 @@
+body{
+    background-image: url("Activityimage/wp2737387.jpg"); 
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center; 
+    background-repeat: no-repeat;
+  }
+  html body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+  
+  .logo1{
+    opacity: none;
+  }
+  
+  .logotext{
+    float: left;
+    font-family: Edo sZ;
+    color: #cb99c9;
+    font-size: 20px;
+    position: relative;
+    left: 150px;
+  }
+  
+  header{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 100.5%;
+    height: 80px;
+    
+    margin-top: 25px;
+    }
+    
+    ul li{
+      margin-right: 20px;
+      float: right;
+      margin-top: 0px;
+    }
+    
+    ul li a{
+      text-decoration: none;
+      padding: 6px 20px;
+      border-radius: 25px;
+      opacity: 1;
+      transition: 0.6s ease;
+    }
+    
+    ul li a:hover{
+        background-color: #E8292C ;
+        color: black;
+    }
+  a{
+    color:  #cb99c9;
+  }
+  div figure:first-child{
+    position: relative;
+    right:840px;
+    top: 50px;
+  }
+  div figure:nth-child(2){
+    position: relative;
+    right:560px;
+    top:-20px;
+  }
+  div figure:nth-child(3){
+    position: relative;
+    right:270px;
+    top:-90px;
+  }
+  ul li a:hover{
+      background-color: #E8292C ;
+      color: black;
+  }
+  .about{
+  
+    padding:50px 100px 50px 100px;
+    margin: -20px;
+    font-family:Century Schoolbook;
+    font-size: 20px;
+    border-color: bisque solid 10px;
+}
+.back{
+    padding: 20px 100px 20px 100px;
+    border: solid 10px;
+    border-radius: 100px;
+    width: 600px;
+    color: bisque;
+}
+h1{
+    font-family:Monotype Corsiva ;
+    font-size: 50px;
+    text-align: center;
+}
+ .about {
+    font-size: 18px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.left{
+  float: left;
+  position: relative;
+  top: 55px;
+  left: 190px;
+}
+
+.center{
+  position: absolute;
+  right:200px ;
+}
+
+.right{
+   float: right;
+     position: relative;
+     right: 100px;
+     bottom: 120px;
+     top: -130px;
+}
+
+.right img{
+    height: 30px;
+    width: auto;
+}
+
+footer{
+  background:black;
+  color: gray;
+  padding: 20px  20px ;
+  position: absolute;
+  bottom:-150px ;
+  left: 0;
+  width: 98%;
+}
+footer p{
+  font-size: 15px;
+}
+footer .left p a{
+text-decoration: none;
+color: gray; 
+text-align: center;
+}
+footer .left p a:hover{
+  text-decoration: underline;
+}

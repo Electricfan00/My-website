@@ -1,0 +1,174 @@
+body{
+    background-image: url("Activityimage/wp2737387.jpg"); 
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center; 
+    background-repeat: no-repeat;
+  }
+  html body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+  
+  .logo1{
+    opacity: none;
+  }
+  
+  .logotext{
+    float: left;
+    font-family: Edo sZ;
+    color: #cb99c9;
+    font-size: 20px;
+    position: relative;
+    left: 150px;
+  }
+  
+  header{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 100.5%;
+    height: 80px;
+    
+    margin-top: 25px;
+    }
+    
+    ul li{
+      margin-right: 20px;
+      float: right;
+      margin-top: 0px;
+    }
+    
+    ul li a{
+      text-decoration: none;
+      padding: 6px 20px;
+      border-radius: 25px;
+      opacity: 1;
+      transition: 0.6s ease;
+    }
+    
+    ul li a:hover{
+        background-color: #E8292C ;
+        color: black;
+    }
+    a{
+        color:  #cb99c9;
+      }
+      .container{
+        width: 1300px;
+        height: 500px;
+        margin: 70px auto 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;       
+    }
+    .container .box{
+        position: relative;
+        width: 300px;
+        height: 300px;
+        margin:10px;
+        box-sizing: border-box;
+        display: inline-block;
+
+    }
+    .container .box .imgbox{
+        position: relative;
+        overflow: hidden;
+        border-radius: 20px;
+        border: bisque solid 5px;
+    }
+    .container .box .imgbox img{
+        max-width: 100%;
+        transition: transform 2s;
+    }
+    .container .box:hover .imgbox img{
+        transform: scale(1.2);
+    
+    }
+    .container .box .details{
+         position: absolute;
+         top:10px;
+         left: 10px;
+         bottom: 10px;
+         right: 8px;
+         height: 400px;
+         background: rgba(0,0,0,.9);
+         transform: scaleY(0);
+         transition: transform .5s;
+         border-radius: 20px;
+    }
+    .container .box:hover .details{
+        transform: scaleY(1);
+    }
+    .container .box .details .content{
+        position: absolute;
+        top:10%;
+        transform: translateY(-10%);
+        text-align: center;
+        padding: 15px;
+        color: white;
+    
+    
+    }
+    .container .box .details .content h2{
+        margin: 0;
+        padding: 0;
+        font-size: 25px;
+        color: yellow;
+    }
+    .container .box .details .content p{
+        margin: 10px 0 0 ;
+        padding: 0;
+    }
+.imgbox img{
+    height: 400px;
+    width: 600px;
+}
+.left{
+    float: left;
+    position: relative;
+    top: -40px;
+    left: 190px;
+  }
+  
+  .center{
+    position: absolute;
+    right:650px;
+    top: -30px;
+  }
+  
+  .right{
+     float: right;
+       position: relative;
+       right: 100px;
+       bottom: 120px;
+       top: -50px;
+  }
+  
+  .right img{
+      height: 30px;
+      width: auto;
+  }
+  
+  footer{
+    background:black;
+    color: gray;
+    padding: 20px  20px ;
+    position: absolute;
+    bottom:-200px ;
+    left: 0;
+    width: 98%;
+  }
+  footer p{
+    font-size: 15px;
+  }
+  footer .left p a{
+  text-decoration: none;
+  color: gray; 
+  text-align: center;
+  }
+  footer .left p a:hover{
+    text-decoration: underline;
+  }
+  
